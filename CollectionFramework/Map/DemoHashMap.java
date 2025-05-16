@@ -12,9 +12,10 @@ public class DemoHashMap{
 
 
 
-                for(Map.Entry<Integer,String> entry: md.entrySet()){
-                    System.out.println(entry.getKey());
+                for(Map.Entry<Integer,String> n:md.entryset()){
+                    System.out.println(n.getKey());
 
+                }
                 }
 
 
